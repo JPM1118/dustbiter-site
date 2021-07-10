@@ -8,7 +8,9 @@ function Tour() {
         TOUR
       </div>
       <div className="bg-black text-white font-bold bg-opacity-40 rounded-md w-full h-56 my-8 p-8">
-        <div>There are no upcoming events.</div>
+        <div className="text-center sm:text-left">
+          There are no upcoming events.
+        </div>
         <div className="text-center mt-8">
           <div className="text-center">
             {" "}

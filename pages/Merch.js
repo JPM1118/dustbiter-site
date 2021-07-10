@@ -42,7 +42,7 @@ function EmblaCarousel() {
 function Merch() {
   return (
     <div className=" w-full text-gray-900 my-36" id="merch">
-      <hr className="border-2 border-gray-900 mx-24" />
+      <hr className="border-2 border-gray-900 sm:mx-24" />
       <div className="mt-6 text-5xl uppercase text-center font-semibold text-shadow">
         merch
       </div>
