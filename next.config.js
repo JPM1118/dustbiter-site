@@ -3,4 +3,5 @@ module.exports = {
   images: {
     domains: ["tailwind.com", "tailwindui.com", "images.unsplash.com"],
   },
+  target: serverless,
 };
