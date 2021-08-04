@@ -103,7 +103,6 @@ function Frontpage() {
           // height={500} automatically provided
           // blurDataURL="data:..." automatically provided
           // Optionally allows to add a blurred version of the image while loading
-          // placeholder="blur"
         />
       </div>
       <div className="flex justify-center">
