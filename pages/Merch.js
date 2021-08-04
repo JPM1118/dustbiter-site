@@ -41,9 +41,15 @@ function EmblaCarousel() {
 
 function Merch() {
   return (
+<<<<<<< Updated upstream
     <div className=" w-full text-gray-900 my-36" id="merch">
       <hr className="border-2 border-gray-900 mx-24" />
       <div className="mt-6 text-5xl uppercase text-center font-semibold text-shadow">
+=======
+    <div className=" w-full text-white my-36" id="merch">
+      <hr className="border-2 border-white sm:mx-24" />
+      <div className="font-russo mt-6 text-5xl uppercase text-center font-semibold text-shadow">
+>>>>>>> Stashed changes
         merch
       </div>
       <div className="text-center">

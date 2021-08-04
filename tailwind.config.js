@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         orange: colors.orange,
       },
+      fontFamily: {
+        russo: ['"Russo One"'],
+      },
     },
   },
   variants: {

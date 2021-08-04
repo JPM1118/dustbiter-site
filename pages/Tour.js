@@ -2,9 +2,9 @@ import React from "react";
 
 function Tour() {
   return (
-    <div className=" w-full text-gray-900 my-24" id="tour">
-      <hr className="border-2 border-gray-900 sm:mx-24" />
-      <div className="mt-6 text-5xl uppercase text-center font-semibold text-shadow">
+    <div className=" w-full text-white my-24" id="tour">
+      <hr className="border-2 border-white sm:mx-24" />
+      <div className="font-russo mt-6 text-5xl uppercase text-center font-semibold text-shadow">
         TOUR
       </div>
       <div className="bg-black text-white font-bold bg-opacity-40 rounded-md w-full h-56 my-8 p-8">

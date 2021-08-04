@@ -1,11 +1,14 @@
 import Head from "next/head";
 import React from "react";
 import { Disclosure } from "@headlessui/react";
+import Image from "next/image";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Merch from "./Merch";
 import Frontpage from "./Frontpage";
 import Tour from "./Tour";
 import Contact from "./Contact";
+import backgroundImg from "../public/background2.jpg";
+import { bgWrap, bgText } from "../styles/styles.module.css";
 
 const navigation = [
   { name: "Home", href: "#home", current: true },
@@ -24,16 +27,20 @@ export default function Home() {
     /* This example requires Tailwind CSS v2.0+ */
 
     <div className="min-h-screen text-white">
-      <Disclosure
-        as="nav"
-        className={` border-b border-gray-200 ${
-          navOpen ? "bg-black" : "bg-white"
-        }`}
-      >
+      <div className={bgWrap}>
+        <Image
+          src={backgroundImg}
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
+      <Disclosure as="nav" className={` ${navOpen ? "bg-black" : ""}`}>
         {({ open }) => (
           <>
             <div
-              className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-nowrap justify-end sm:justify-center`}
+              className={`font-russo max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-nowrap justify-end sm:justify-center`}
             >
               <div className="flex justify-between h-16">
                 <div className="flex">
@@ -44,9 +51,15 @@ export default function Home() {
                         href={item.href}
                         className={classNames(
                           item.current
+<<<<<<< Updated upstream
                             ? "border-orange-500 text-gray-900"
                             : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700",
                           "inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+=======
+                            ? "border-white text-white"
+                            : "border-transparent text-white hover:border-gray-300 hover:text-gray-700",
+                          "inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+>>>>>>> Stashed changes
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >

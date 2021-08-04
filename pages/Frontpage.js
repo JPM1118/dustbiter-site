@@ -5,10 +5,15 @@ import bandPhoto from "../public/band_phot.png";
 
 function LinksBar() {
   return (
+<<<<<<< Updated upstream
     <div className="justify-center w-96 sm:w-auto sm:fixed sm:right-0 sm:top-16 bg-black flex sm:flex-col">
       <div className="p-4">
+=======
+    <div className="justify-center max-w-sm sm:w-auto sm:fixed sm:right-0 sm:top-16 bg-white flex sm:flex-col">
+      <div className="p-3">
+>>>>>>> Stashed changes
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -19,7 +24,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -30,7 +35,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -41,7 +46,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -52,7 +57,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -63,7 +68,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           width="24"
           height="24"
           xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +80,7 @@ function LinksBar() {
       </div>
       <div className="p-4">
         <svg
-          className="fill-current text-white cursor-pointer"
+          className="fill-current text-gray-900 cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -94,7 +99,7 @@ function LinksBar() {
 
 function Frontpage() {
   return (
-    <div className="w-full text-gray-900" id="home">
+    <div className="w-full text-white" id="home">
       <div className="sm:w-3/4  flex mx-auto">
         <Image
           src={bandNameImage}
@@ -109,7 +114,11 @@ function Frontpage() {
       <div className="flex justify-center">
         <LinksBar />
       </div>
+<<<<<<< Updated upstream
       <div className=" my-12 text-3xl sm:text-5xl font-bold uppercase text-center text-shadow">
+=======
+      <div className="font-russo my-12 sm: my-20 text-3xl sm:text-5xl font-bold uppercase text-center text-shadow">
+>>>>>>> Stashed changes
         Album out now
       </div>
       <div className="sm:w-3/4 flex mx-auto">

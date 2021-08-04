@@ -4,7 +4,7 @@
 
 @responsive {
   .text-shadow {
-    text-shadow: 3px 3px lightgray;
+    text-shadow: 3px 3px gray;
   }
 
   .text-shadow-md {
@@ -26,5 +26,5 @@
 
 body,
 html {
-  background-color: white;
+  /* background-color: white; */
 }
