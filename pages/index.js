@@ -75,7 +75,7 @@ export default function Home() {
                       />
                     ) : (
                       <MenuIcon
-                        className="block h-6 w-6 text-gray-400"
+                        className="block h-6 w-6 text-white"
                         aria-hidden="true"
                         onClick={() => setNavOpen(true)}
                       />
@@ -97,7 +97,7 @@ export default function Home() {
                         item.current
                           ? " border-orange-500 text-orange-700"
                           : "border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800",
-                        "block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                        "block pl-3 pr-4 py-2 border-l-4 text-lg font-medium"
                       )}
                       aria-current={item.current ? "page" : undefined}
                     >
